@@ -13,6 +13,9 @@ body{
     background-color: #1F2937;
     padding-left: 100px;
     padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 header{
@@ -31,6 +34,51 @@ ul{
     gap: 20px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.main-content{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40vw;
+}
+.intro > #heading{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.intro > #description{
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.728);
+}
+
+.intro > button{
+    width: 90px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: royalblue;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.image-ph{
+    background-color: rgba(255, 255, 255, 0.582);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 40vh;
 }
 .div2{
     background-color: white;
